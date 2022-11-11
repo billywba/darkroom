@@ -67,7 +67,7 @@ function InfoFrame() {
 
   return (
     <>
-      <h2>{data[page].step} Step</h2>
+      <h1>{data[page].step} Step</h1>
 
       <Row>
         <Col xs={8} style={{height: '500px'}}>
@@ -76,7 +76,7 @@ function InfoFrame() {
           </p>
         </Col>
         <Col xs={4}>
-          <img src={data[page].img} style={{height: '256px', width: '256px'}}/>
+          <img src={data[page].img} style={{height: '256px', width: '256px', marginBottom: '16px'}}/>
           <img src='bot.png' style={{height: '256px', width: '256px'}}/>
         </Col>
       </Row>
