@@ -8,7 +8,7 @@ function Home() {
       <Row>
         <Col>
           <h2>DE-LIGHT</h2>
-          <Link to="/info/1">START</Link>
+          <Link to="/info">START</Link>
         </Col>
       </Row>
     );

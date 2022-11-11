@@ -9,7 +9,7 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <div className="App">
-      <Container style={{padding: '20px'}}>
+      <Container style={{padding: '50px'}}>
         <Routes>
           <Route path="/home" element={ <Home/> } />
           <Route path="/info" element={ <InfoFrame/> } />
