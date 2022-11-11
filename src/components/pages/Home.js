@@ -1,10 +1,13 @@
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function Home() {
     return (
-      <div className="Home">
-        <header>
-            <h2>DE-LIGHT</h2>
-        </header>
-      </div>
+      <Row>
+        <Col>
+          <h2>DE-LIGHT</h2>
+        </Col>
+      </Row>
     );
   }
   
