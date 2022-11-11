@@ -1,13 +1,8 @@
 .App {
-  text-align: center;
   background-color: #282c34;
   color: white;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Fragment Mono', monospace;
+  font-family: 'Fragment Mono', monospace; 
 }
 
 .App-logo {

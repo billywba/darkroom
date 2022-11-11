@@ -15,9 +15,6 @@ function App() {
           <Route path="/info/1" element={ <InfoFrame/> } />
         </Routes>
       </Container>
-      {/* <header className="App-header">
-        <h1>DE-LIGHT</h1>
-      </header> */}
     </div>
   );
 }
