@@ -77,6 +77,7 @@ function InfoFrame() {
         </Col>
         <Col xs={4}>
           <img src={data[page].img} style={{height: '256px', width: '256px'}}/>
+          <img src='bot.png' style={{height: '256px', width: '256px'}}/>
         </Col>
       </Row>
 
