@@ -81,8 +81,8 @@ function InfoFrame() {
       </Row>
 
       <Row>
-        <button onClick={() => setPage(page - 1)}>Back</button>
-        <button onClick={() => setPage(page + 1)}>Next</button>
+        <button onClick={() => setPage(page - 1)} disabled={page > 0 ? false : true}>Back</button>
+        <button onClick={() => setPage(page + 1)} disabled={page < data.length - 1 ? false : true}>Next</button>
       </Row>
     </>
   );
