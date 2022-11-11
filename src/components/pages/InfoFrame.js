@@ -50,14 +50,17 @@ function InfoFrame() {
       <h2>First Step</h2>
 
       <Row>
-        <Col xs={6}>
+        <Col xs={8} style={{height: '500px'}}>
           <p>
             {data[page].text}
           </p>
-          <button onClick={() => setPage(page - 1)}>Back</button>
-          <button onClick={() => setPage(page + 1)}>Next</button>
         </Col>
-        <Col xs={6}><p>IMG HERE</p></Col>
+        <Col xs={4}><p>IMG HERE</p></Col>
+      </Row>
+
+      <Row>
+        <button onClick={() => setPage(page - 1)}>Back</button>
+        <button onClick={() => setPage(page + 1)}>Next</button>
       </Row>
     </>
   );
