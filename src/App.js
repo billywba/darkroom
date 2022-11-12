@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container'
 
 import InfoFrame from './components/pages/InfoFrame';
 import Home from './components/pages/Home';
+import SplinePage from './components/pages/SplinePage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/home" element={ <Home/> } />
           <Route path="/info" element={ <InfoFrame/> } />
+          <Route path="/spline" element={ <SplinePage /> } />
         </Routes>
       </Container>
     </div>
