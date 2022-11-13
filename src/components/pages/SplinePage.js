@@ -92,7 +92,7 @@ function SplinePage() {
           id="spline"
           scene="https://prod.spline.design/lQqNvehZUYUdCHgU/scene.splinecode"
           width={1600}
-          height={1000}
+          height={800}
         />
       </Row>
 
