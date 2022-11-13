@@ -10,7 +10,7 @@ import SplinePage from './components/pages/SplinePage';
 function App() {
   return (
     <div className="App">
-      <Container style={{padding: '50px'}}>
+      <Container style={{padding: '50px', width: "100vw", maxWidth: "90vw"}}>
         <Routes>
           <Route path="/home" element={ <Home/> } />
           <Route path="/info" element={ <InfoFrame/> } />
