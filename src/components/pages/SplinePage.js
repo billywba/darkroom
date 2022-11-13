@@ -67,12 +67,12 @@ function SplinePage() {
             </Row>
 
             <Row style={{paddingTop: '16px'}}>
-                <Col xs={6}>
+                <Col xs={8}>
                     <h1>{data[page].step} Step</h1>
-
-                    <p>
-                        {data[page].text}
-                    </p>
+                    <p>{data[page].text}</p>
+                </Col>
+                <Col xs={4}>
+                    <img src='bot.png' style={{height: '256px', width: '256px'}}/>
                 </Col>
             </Row>
 
